@@ -10,4 +10,8 @@ server.get('/users',(req,res)=>{
     res.send([{id:1,name:"Sonam"},{id:2,name:"Sonam"},{id:3,name:"Sonam"}])
 })
 
+server.get('/posts',(req,res)=>{
+    res.send("Post URL triggered")
+})
+
 server.listen(5000,()=>console.log("Server Started"))
