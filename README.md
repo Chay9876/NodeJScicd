@@ -2,7 +2,8 @@
 
 ## included some test cases for CICD pipeline
 
-### Connected with Webhook to understand triggers, which triggers Jenkins
+
+
 
 
 - used ngrok for exposing localhost here
